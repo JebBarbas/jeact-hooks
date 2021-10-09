@@ -1,0 +1,38 @@
+{
+  "name": "@jeact/hooks",
+  "version": "1.0.0",
+  "description": "Some hooks to handle states in a very easy way.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "standard-version",
+    "test": "node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebBarbas/jeact-hooks.git"
+  },
+  "author": "jebbarbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JebBarbas/jeact-hooks/issues"
+  },
+  "homepage": "https://github.com/JebBarbas/jeact-hooks#readme",
+  "keywords": [
+    "react", "jeact", "hooks"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.27",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
