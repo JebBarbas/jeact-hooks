@@ -1,6 +1,6 @@
 {
   "name": "@jeact/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some hooks to handle states in a very easy way.",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/JebBarbas/jeact-hooks#readme",
   "keywords": [
-    "react", "jeact", "hooks"
+    "react",
+    "jeact",
+    "hooks"
   ],
   "devDependencies": {
     "@types/node": "^16.10.3",
