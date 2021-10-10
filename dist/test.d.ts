@@ -1,1 +1,1 @@
-export {};
+declare const ok: any;
