@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.0](https://github.com/JebBarbas/jeact-hooks/compare/v1.0.3...v1.1.0-alpha.0) (2021-10-19)
+
+
+### Features
+
+* Changed tsc target from ESNEXT to ES5 🧪 ([31dc36b](https://github.com/JebBarbas/jeact-hooks/commit/31dc36bc6535ff89183ebda3fbfe34ac22af95cf))
+
 ### [1.0.3](https://github.com/JebBarbas/jeact-hooks/compare/v1.0.2...v1.0.3) (2021-10-14)
 
 
