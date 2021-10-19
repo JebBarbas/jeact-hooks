@@ -4,9 +4,9 @@ import { useState } from 'react';
  * @param initialValue The initial value of the boolean, default is false
  */
 export default function useBoolean(initialValue) {
-    const [boolean, setBoolean] = useState(initialValue ?? false);
-    const setBooleanTrue = () => setBoolean(true);
-    const setBooleanFalse = () => setBoolean(false);
+    var _a = useState(initialValue !== null && initialValue !== void 0 ? initialValue : false), boolean = _a[0], setBoolean = _a[1];
+    var setBooleanTrue = function () { return setBoolean(true); };
+    var setBooleanFalse = function () { return setBoolean(false); };
     return [boolean, setBooleanTrue, setBooleanFalse];
 }
 //# sourceMappingURL=useBoolean.js.map

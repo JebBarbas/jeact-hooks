@@ -4,8 +4,8 @@ import { useState } from 'react';
  * @param initialValue The initial value of the boolean, default is false
  */
 export default function useToggle(initialValue) {
-    const [boolean, setBoolean] = useState(initialValue ?? false);
-    const toggleBoolean = () => setBoolean(!boolean);
+    var _a = useState(initialValue !== null && initialValue !== void 0 ? initialValue : false), boolean = _a[0], setBoolean = _a[1];
+    var toggleBoolean = function () { return setBoolean(!boolean); };
     return [boolean, toggleBoolean];
 }
 //# sourceMappingURL=useToggle.js.map
