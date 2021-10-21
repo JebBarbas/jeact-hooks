@@ -1,5 +1,8 @@
 import useBoolean from "./useBoolean";
 import useLoading from "./useLoading";
 import useToggle from "./useToggle";
-export { useBoolean, useLoading, useToggle, };
+import useLocalStorage from "./useLocalStorage";
+// VERY EXPERIMENTAL
+import useSteppedIncremental from "./useSteppedIncremental";
+export { useBoolean, useLoading, useToggle, useLocalStorage, useSteppedIncremental };
 //# sourceMappingURL=index.js.map

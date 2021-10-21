@@ -1,4 +1,6 @@
 import useBoolean from "./useBoolean";
 import useLoading from "./useLoading";
 import useToggle from "./useToggle";
-export { useBoolean, useLoading, useToggle, };
+import useLocalStorage from "./useLocalStorage";
+import useSteppedIncremental from "./useSteppedIncremental";
+export { useBoolean, useLoading, useToggle, useLocalStorage, useSteppedIncremental };
