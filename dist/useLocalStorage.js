@@ -5,6 +5,18 @@ import { useState } from "react";
  * @param itemKey The key of the item (Put different keys to each value you want to save,
  * you can use the same key in different components to manage the same localStorage value).
  * @param defaultValue The default value to the initialState if the localStorage key doesn't exist.
+ * @example
+ * ```jsx
+ * const ColorDiv = () => {
+ *      const [favoriteColor, setFavoriteColor] = useLocalStorage('@example/favoriteColor', '#ffffff')
+ *      return (
+ *          <div style={{backgroundColor: favoriteColor}}>
+ *              My favorite color is {favoriteColor}
+ *              <input value={favoriteColor} onChange={e => setFavoriteColor(e.target.value)} />
+ *          </div>
+ *      )
+ * }
+ * ```
  */
 export default function useLocalStorage(itemKey, defaultValue) {
     if (typeof localStorage == 'undefined') {
