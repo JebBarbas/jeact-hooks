@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/JebBarbas/jeact-hooks/compare/v1.2.0-alpha.0...v1.2.0) (2021-10-23)
+
+
+### Bug Fixes
+
+* Released useLocalStorage and useSteppedIncremental hooks 🥳 ([56b0971](https://github.com/JebBarbas/jeact-hooks/commit/56b0971ff8f8ba9b4123fd1278caca70def34ef8))
+
 ## [1.2.0-alpha.0](https://github.com/JebBarbas/jeact-hooks/compare/v1.1.0...v1.2.0-alpha.0) (2021-10-21)
 
 
