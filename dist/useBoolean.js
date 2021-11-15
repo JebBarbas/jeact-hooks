@@ -23,4 +23,3 @@ export default function useBoolean(initialValue) {
     var setBooleanFalse = function () { return setBoolean(false); };
     return [boolean, setBooleanTrue, setBooleanFalse];
 }
-//# sourceMappingURL=useBoolean.js.map

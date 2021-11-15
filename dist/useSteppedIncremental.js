@@ -59,4 +59,3 @@ export default function useSteppedIncremental(limit, duration, initialValue) {
     }
     return [count, startIncrement, condition, resetIncrement];
 }
-//# sourceMappingURL=useSteppedIncremental.js.map

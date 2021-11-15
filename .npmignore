@@ -1,0 +1,9 @@
+# Modules and Typescript
+node_modules/
+src/
+
+# 
+.eslintrc.json
+.gitignore
+.travis.yml
+.tsconfig.json

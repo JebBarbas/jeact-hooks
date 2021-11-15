@@ -21,4 +21,3 @@ export default function useToggle(initialValue) {
     var toggleBoolean = function () { return setBoolean(!boolean); };
     return [boolean, toggleBoolean];
 }
-//# sourceMappingURL=useToggle.js.map

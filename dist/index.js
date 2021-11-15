@@ -4,4 +4,3 @@ import useToggle from "./useToggle";
 import useLocalStorage from "./useLocalStorage";
 import useSteppedIncremental from "./useSteppedIncremental";
 export { useBoolean, useLoading, useToggle, useLocalStorage, useSteppedIncremental };
-//# sourceMappingURL=index.js.map
