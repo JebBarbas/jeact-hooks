@@ -5,7 +5,7 @@
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@jeact/hooks?logo=librariesdotio&style=flat-square)
 ![npm](https://img.shields.io/npm/dt/@jeact/hooks?color=red&logo=npm&style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@jeact/hooks?color=red&logo=npm&style=flat-square)
-![npm](https://img.shields.io/npm/v/@jeact/hooks?color=red&logo=npm)
+![npm](https://img.shields.io/npm/v/@jeact/hooks?color=red&logo=npm&style=flat-square)
 
 Some hooks to handle states in a very easy way.
 
@@ -68,6 +68,8 @@ always gonna repeat the same values in same order, if you return to the first va
 last one, and if you go to the last value and go to the next, you'll get the first one.
 
 ### useDramaticValue
+
+***THIS HOOK DOES NOT WORK YET, AND I KNOW HOW TO FIX IT:(***
 
 ***WARNING: This hook has the same warnings as the useSteppedIncremental***
 
