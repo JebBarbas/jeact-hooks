@@ -56,10 +56,12 @@ export default function useDramaticValue(final, duration, intervalTime, valuesIn
         setTimeout(functionToEndTheDramatic, duration);
     }, [duration, functionToEndTheDramatic]);
     if (dramaticStarted) {
-        if (condition == CONDITION.NOT_STARTED) {
+        if (condition === CONDITION.NOT_STARTED) {
             functionToStartTheDramatic();
         }
-        timeout = setTimeout(function () { return setCount(getRandomBetween(valuesInterval[0], valuesInterval[1])); }, intervalTime);
+        else {
+            timeout = setTimeout(function () { return setCount(getRandomBetween(valuesInterval[0], valuesInterval[1])); }, intervalTime);
+        }
     }
     else {
         clearTimeout(timeout);

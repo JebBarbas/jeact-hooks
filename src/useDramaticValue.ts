@@ -66,11 +66,12 @@ export default function useDramaticValue(final:number, duration:number, interval
     },[duration, functionToEndTheDramatic])
 
     if(dramaticStarted){
-        if(condition == CONDITION.NOT_STARTED){
+        if(condition === CONDITION.NOT_STARTED){
             functionToStartTheDramatic()
         }
-
-        timeout = setTimeout(() => setCount(getRandomBetween(valuesInterval[0], valuesInterval[1])), intervalTime)
+        else{
+            timeout = setTimeout(() => setCount(getRandomBetween(valuesInterval[0], valuesInterval[1])), intervalTime)
+        }
     }
     else{
         clearTimeout(timeout)
