@@ -1,13 +1,15 @@
 {
   "name": "@jeact/hooks",
-  "version": "1.2.1",
+  "version": "1.3.0-alpha.0",
   "description": "Some hooks to handle states in a very easy way.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "release": "standard-version",
     "test": "node dist/test.js",
-    "share": "git push --follow-tags origin main && npm publish --access public"
+    "release": "standard-version",
+    "share": "git push --follow-tags origin main && npm publish --access public",
+    "alpha": "standard-version --prerelease alpha",
+    "share-alpha": "git push --follow-tags origin main && npm publish --tag alpha --access public"
   },
   "repository": {
     "type": "git",
