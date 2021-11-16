@@ -1,6 +1,6 @@
 {
   "name": "@jeact/hooks",
-  "version": "1.3.0-alpha.1",
+  "version": "1.3.0",
   "description": "Some hooks to handle states in a very easy way.",
   "main": "dist/index.js",
   "scripts": {
