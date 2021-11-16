@@ -1,0 +1,48 @@
+import { useState } from 'react';
+/**
+ * Returns a value of the given possible values and to functions, one to make the value the next and one to make it
+ * the previous (if the value is for example the last one in the possible values and you use the next function
+ * then its gonna return the first value).
+ *
+ * You can see this hook like a roulette, you have one value, and you can spin the roulette in any direction, and is
+ * always gonna repeat the same values in same order, if you return to the first value and go back, you will get the
+ * last one, and if you go to the last value and go to the next, you'll get the first one.
+ *
+ * @param values The possible values that the sequence can have
+ * @example
+ * const Colors = () => {
+ *      const [actualColor, nextColor, prevColor] = useSequence('red','orange','yellow','green','blue','purple')
+ *
+ *      return (
+ *          <div style={{backgroundColor: actualColor}}>
+ *              The actual color is: {actualColor}
+ *              <button onClick={nextColor}> Next Color </button>
+ *              <button onClick={nextColor}> Previous Color </button>
+ *          </div>
+ *      )
+ * }
+ */
+export default function useSequence() {
+    var values = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        values[_i] = arguments[_i];
+    }
+    var _a = useState(0), index = _a[0], setIndex = _a[1];
+    var nextValue = function () {
+        if (index === values.length - 1) {
+            setIndex(0);
+        }
+        else {
+            setIndex(index + 1);
+        }
+    };
+    var previousValue = function () {
+        if (index === 0) {
+            setIndex(values.length - 1);
+        }
+        else {
+            setIndex(index - 1);
+        }
+    };
+    return [values[index], nextValue, previousValue];
+}
