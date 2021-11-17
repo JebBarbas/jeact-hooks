@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/JebBarbas/jeact-hooks/compare/v1.3.0...v1.3.1) (2021-11-17)
+
+
+### Bug Fixes
+
+* Fixed something in README and in npmignore 📕 ([f64c694](https://github.com/JebBarbas/jeact-hooks/commit/f64c6946ad92d29ba60653f1aa5080fefd000f6f))
+
 ## [1.3.0](https://github.com/JebBarbas/jeact-hooks/compare/v1.3.0-alpha.1...v1.3.0) (2021-11-16)
 
 
