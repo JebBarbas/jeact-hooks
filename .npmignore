@@ -2,8 +2,8 @@
 node_modules/
 src/
 
-# 
+# Configuration Files
 .eslintrc.json
 .gitignore
 .travis.yml
-.tsconfig.json
+tsconfig.json

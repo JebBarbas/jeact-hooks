@@ -79,3 +79,15 @@ export default function useDramaticValue(final:number, duration:number, interval
 
     return [count, startDramatic, condition, resetDramatic]
 }
+
+/*
+FLUID ***DIAGRAM***
+1. ALL OFF
+2. If does not do anything, clears the timeout
+3. FUNCTION STARTDRAMATIC IS CALLED --> dramaticStarted now is true
+4. Now the if is enter
+5. The if with the condition is true --> the dramatic starts
+6. condition is 1, in miliseconds its going to end
+7. hook reloads and enters the function
+8. confition is false, so a timeout is called
+*/

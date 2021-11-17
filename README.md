@@ -1,11 +1,16 @@
 # @jeact/hooks
 
+<p align="center">
+    <img alt="Jeact Logo" src="https://i.ibb.co/ZxDGYLc/jeact-logo-long.png" height="100"/>
+</p>
+
 ![NPM](https://img.shields.io/npm/l/@jeact/hooks?color=blue&logo=npm&style=flat-square)
 ![Travis (.com)](https://img.shields.io/travis/com/jebbarbas/jeact-hooks?logo=travis&style=flat-square)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@jeact/hooks?logo=librariesdotio&style=flat-square)
 ![npm](https://img.shields.io/npm/dt/@jeact/hooks?color=red&logo=npm&style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@jeact/hooks?color=red&logo=npm&style=flat-square)
 ![npm](https://img.shields.io/npm/v/@jeact/hooks?color=red&logo=npm&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/jebbarbas/jeact-hooks?logo=github&style=social)
 
 Some hooks to handle states in a very easy way.
 
@@ -13,6 +18,7 @@ Some hooks to handle states in a very easy way.
 or the loading functionality.
 
 ## Instalation
+
 ```
 npm i @jeact/hooks
 ```
@@ -20,16 +26,20 @@ npm i @jeact/hooks
 ## Hooks
 
 ### useBoolean
+
 Returns a `boolean` value, and two functions, one to make the boolean `true` and another to make
 it `false`.
 
 ### useLoading
+
 Returns the same as `useBoolean`, but this hook has a more-expressive name.
 
 ### useToggle
+
 Returns a `boolean` value and a function to toggle the value between `true` and `false`.
 
 ### useLocalStorage
+
 Returns a like-state `value` getted from localStorage and a function to change it and store its new value
 in localStorage (its like a React state, but it will save the value in localStorage).
 
@@ -59,6 +69,7 @@ active, this will result in a react warning: `Can't perform a React state update
 So, as you can see, this hook works, but you need to be very careful.
 
 ### useSequence
+
 Returns a value of the given possible values and to functions, one to make the value the next and one to make it
 the previous (if the value is for example the last one in the possible values and you use the next function
 then its gonna return the first value).
